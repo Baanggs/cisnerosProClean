@@ -205,16 +205,10 @@ button, a {
 
 .primary-btn,
 .secondary-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.7rem;
-  min-height: 3.5rem;
-  padding: 0.9rem 1.6rem;
-  border-radius: 999px;
-  font-weight: 700;
-  cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width:200px;
+  height: 3rem;
+  border-radius: 9999px !important;
+
 }
 
 .primary-btn {
@@ -271,6 +265,10 @@ button, a {
   width: min(1200px, calc(100% - 2.5rem));
   margin: 0 auto;
   padding: 5rem 0;
+}
+
+.services-page .services {
+  padding-top: 12rem;
 }
 
 .section-heading {
@@ -449,6 +447,10 @@ button, a {
     flex-direction: column;
     justify-content: center;
     padding-top: 12rem;
+  }
+
+  .services-page .services {
+    padding-top: 16rem;
   }
 
   .hero__copy,
